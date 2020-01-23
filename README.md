@@ -12,9 +12,9 @@ composer require moathdev/laravel-nova-Polygon-map-field
 
 ```php 
 
-use Moathdev\MovaPolygonMap\Polygon;
-use Moathdev\MovaPolygonMap\Point;
-use Moathdev\MovaPolygonMap\ProgressBar;
+use Moathdev\PolygonMap\Polygon;
+use Moathdev\PolygonMap\Point;
+use Moathdev\PolygonMap\ProgressBar;
 
 Polygon::make('map');
 Point::make('map');
