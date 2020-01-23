@@ -1,0 +1,31 @@
+{
+    "name": "moathdev/laravel-nova-Polygon-map-field",
+    "description": "Laravel Nova Polygon map field.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "polygon",
+        "map"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Moathdev\\PolygonMap\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Moathdev\\PolygonMap\\FieldServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
