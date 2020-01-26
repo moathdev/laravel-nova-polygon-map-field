@@ -20,6 +20,8 @@ Polygon::make('map'),
 Point::make('map'),
 
 
+// env file 
+GOOGLE_MAPS_KEY=
 ```
 
 ## License
